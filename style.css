@@ -1,3 +1,18 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(./Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotoLightItalic;
+    src: url(./Fonts/Roboto-LightItalic.ttf);
+}
+
 *{
     margin:0;
     padding:0;
@@ -7,7 +22,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:roboto;
     
 }
 
@@ -57,7 +72,7 @@ li{
 
 h1{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-family: robotoBold;
     color:#f9faf8;
 }
 
@@ -89,6 +104,7 @@ h2{
     font-weight: bolder;
     text-align: center;
     padding-top: 50px;
+    font-family: robotoBold;
 }
 
 .big-flex-container{
@@ -112,4 +128,32 @@ h2{
 
 .info-flex-container > p{
     color: #1f2937;
+}
+
+.quote{
+    background-color:#e5e7eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px 250px;
+
+    
+}
+
+.quote > p {
+    color:#1f2937;
+    font-weight: lighter;
+    font-size: 36px;
+    font-family: robotoLightItalic;
+    
+
+}
+
+.caption-flex{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    font-weight: bold;
+    font-size: 24px;
 }
