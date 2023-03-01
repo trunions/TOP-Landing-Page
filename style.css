@@ -32,6 +32,10 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     padding: 25px 113px;
+    position: fixed;
+    width: 84%;
+    top: 0px;
+    left: 0px;
 }
 
 .logo{
@@ -90,6 +94,7 @@ button{
     font-size: 18px;
     border:none;
     width:125px;
+    padding: 10px 15px;
 }
 
 .img{
